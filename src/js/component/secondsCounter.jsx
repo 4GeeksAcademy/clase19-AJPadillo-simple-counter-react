@@ -5,17 +5,15 @@ export const SecondsCounter = (props) => {
 
     return (
         <>
-            <h1>
-                {}
-            </h1>
             <div className="container">
-                <div className="row d-flex gap-1 bg-dark text-center">
-                    <h1 className="col-md m-3 ms-5 bg-secondary rounded text-white"><i className="fa-solid fa-house"></i></h1>
-                    <h1 className="col-md m-3 bg-secondary rounded text-white">0</h1>
-                    <h1 className="col-md m-3 bg-secondary rounded text-white">0</h1>
-                    <h1 className="col-md m-3 bg-secondary rounded text-white">{centesimals}</h1>
-                    <h1 className="col-md m-3 bg-secondary rounded text-white">{decimals}</h1>
-                    <h1 className="col-md m-3 me-5 bg-secondary rounded text-white">{seconds}</h1>
+                <div className="row justify-content-center d-flex gap-1 bg-dark text-center mt-3">
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1"><i className="fas fa-clock"></i></p>
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1">0</p>
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1">0</p>
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1">0</p>
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1">{centesimals}</p>
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1">{decimals}</p>
+                    <p className="col-md-1 m-3 py-5 bg-secondary rounded text-white fs-1">{seconds}</p>
                 </div>
             </div>
         </>
